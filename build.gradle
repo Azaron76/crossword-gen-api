@@ -15,6 +15,7 @@ println '################## project path: ################'
 println  "Root project:   ${project.rootProject}"
 println  "  rootDir:      ${project.rootDir}"
 println  "  projectDir:   ${project.projectDir}"
+println  "  buildDir:     ${project.buildDir}"
 
 
 def apiSrcPath = "${project.projectDir}/src/main/api".toString()
